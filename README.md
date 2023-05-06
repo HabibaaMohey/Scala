@@ -3,7 +3,8 @@ A huge retail store wants a rule engine that qualifies orders’ transactions to
 
 
 
-#Technical considerations:
+# Technical considerations:
+
 • We can have wrappers of impure functions to interact with the outside world. 
 However, the core logic must be written in a pure functional manner. 
 In the core functional logic:
